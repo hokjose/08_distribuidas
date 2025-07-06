@@ -1,0 +1,7 @@
+ms\cliente\modelo\Cliente.class
+ms\cliente\repositorio\ClienteRep.class
+ms\cliente\servicios\serviceimpl\ClienteServiceImp.class
+ms\cliente\controller\ClienteController.class
+ms\cliente\MsClienteServiceApplication.class
+ms\cliente\servicios\ClienteService.class
+ms\cliente\modelo\Cliente$ClienteBuilder.class
