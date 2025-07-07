@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hokjose/eco_dan_joss.git
-          searchPaths: config-data
+          uri: https://github.com/hokjose/08_distribuidas.git
+          searchPaths: config-ecomoda-main
           default-label: main
   security:
     user:

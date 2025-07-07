@@ -5,19 +5,15 @@ spring:
   application:
     name: ms-cliente-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/eco-cliente
-    username: postgres
-    password: 123456
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:mysql://localhost:3306/eco-cliente
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    database: POSTGRESQL
-    show-sql: true
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-  sql:
-    init:
-      platform: postgres
+    show-sql: true
+
 
 springdoc:
   api-docs:
