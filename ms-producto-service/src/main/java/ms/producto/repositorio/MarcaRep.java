@@ -1,9 +1,9 @@
 package ms.producto.repositorio;
 
-import ms.producto.modelo.Color;
+import ms.producto.modelo.Marca;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ColorRep extends JpaRepository<Color, Long> {
+public interface MarcaRep extends JpaRepository<Marca, Long> {
 }
